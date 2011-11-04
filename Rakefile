@@ -2,8 +2,8 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('meatloaf', '0.1.0') do |p|
-  p.description    = "Compiles similar bg images into one, using SASS directives."
+Echoe.new('meatloaf', '0.1.1') do |p|
+  p.description    = "Sass-based background-image Sprite generator"
   p.url            = "https://github.com/machty/meatloaf"
   p.author         = "Alex Matchneer"
   p.email          = "machty@gmail.com"
